@@ -56,7 +56,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.Vie
                     .load(dataBean.getPic())
                     .into(myViewHolder.pic);
             myViewHolder.subject.setText(dataBean.getSubject());
-            myViewHolder.summary.setText(dataBean.getSummary());
+            //myViewHolder.summary.setText(dataBean.getSummary());
             myViewHolder.visitcount.setText("访问：" + dataBean.getVisitcount());
             myViewHolder.comments.setText("评论：" + dataBean.getComments());
         }
@@ -120,7 +120,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.Vie
             visitcount = (TextView) ItemView.findViewById(R.id.viscount);
             comments = (TextView) ItemView.findViewById(R.id.comments);
             //设置背景为半透明
-            subject.setBackgroundColor(Color.argb(20, 0, 0, 0));
+            //subject.setBackgroundColor(Color.argb(20, 0, 0, 0));
         }
     }
 }

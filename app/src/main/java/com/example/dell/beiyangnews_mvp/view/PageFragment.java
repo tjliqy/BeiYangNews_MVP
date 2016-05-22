@@ -63,11 +63,12 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
         swipeRefreshLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(Color.RED, Color.BLUE, Color.GREEN);
 
-        dataBeanList = new ArrayList<>();
+            dataBeanList = new ArrayList<>();
         myRecyclerViewAdapter = new MyRecyclerViewAdapter(getActivity(),dataBeanList);
         linearLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(myRecyclerViewAdapter);
+        recyclerView.addItemDecoration(new SpaceItemDecoration(16));
 
         toNetWork = new ToNetWork();
 
