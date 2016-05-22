@@ -20,6 +20,7 @@ public class NewsContentActivity extends AppCompatActivity implements NewsConten
 
     private WebView webView;
     private ToNetWork toNetWork = new ToNetWork();
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,14 +32,11 @@ public class NewsContentActivity extends AppCompatActivity implements NewsConten
         String index = bundle.getString("index");
         String subject = bundle.getString("subject");
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_content);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_content);
         toolbar.setTitle(subject);
         setSupportActionBar(toolbar);
 
-
         toNetWork.loadContent(NewsContentActivity.this,index);
-
-
 
     }
 
@@ -47,6 +45,7 @@ public class NewsContentActivity extends AppCompatActivity implements NewsConten
         webView = (WebView)findViewById(R.id.webview);
         Log.d("lqy","getContent");
         webView.loadData(dataBean.getContent(),"text/html;charset=utf-8", null);
+        toolbar.setSubtitle("新闻来源："+dataBean.getNewscome());
     }
 
     @Override

@@ -10,5 +10,6 @@ import java.util.List;
 public interface PageFragmentCallBack {
     public void onRefresh();
     public void onLoading(List<News.DataBean> dataBeanList);
+    public void onDataError();
     public void onError();
 }

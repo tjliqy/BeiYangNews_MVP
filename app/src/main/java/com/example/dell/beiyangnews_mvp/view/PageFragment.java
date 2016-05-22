@@ -34,10 +34,11 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
     private MyRecyclerViewAdapter myRecyclerViewAdapter;
     private LinearLayoutManager linearLayoutManager;
     private List<News.DataBean> dataBeanList;
-    private ToNetWork toNetWork;
+    private ToNetWork toNetWork = new ToNetWork();
     private boolean loading = false;
     private int page;
     private int type;
+    private String tabTitles[] = new String[]{"天大要闻","校园公告","社团风采","院系动态","视点观察"};
 
     public static PageFragment newInstance(int page){
         Bundle args = new Bundle();
@@ -63,17 +64,19 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
         swipeRefreshLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(Color.RED, Color.BLUE, Color.GREEN);
 
-            dataBeanList = new ArrayList<>();
+        dataBeanList = new ArrayList<>();
         myRecyclerViewAdapter = new MyRecyclerViewAdapter(getActivity(),dataBeanList);
         linearLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(myRecyclerViewAdapter);
         recyclerView.addItemDecoration(new SpaceItemDecoration(16));
 
-        toNetWork = new ToNetWork();
 
         page = 1;
-        toNetWork.loadData(PageFragment.this,String.valueOf(type),String.valueOf(page));
+        if(!loading) {
+            loading = true;
+            toNetWork.loadData(PageFragment.this, String.valueOf(type), String.valueOf(page));
+        }
         Log.d("lqy","page"+page);
         //下拉刷新
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -113,13 +116,28 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
     @Override
     public void onLoading(List<News.DataBean> dataBeanList) {
         this.dataBeanList.addAll(dataBeanList);
-        myRecyclerViewAdapter.notifyDataSetChanged();
+        if(dataBeanList.isEmpty()){
+            Toast.makeText(getActivity(),"数据错误，请稍后重试",Toast.LENGTH_SHORT).show();
+        }
+        else {
+            myRecyclerViewAdapter.notifyDataSetChanged();
+        }
+
         loading = false;
         swipeRefreshLayout.setRefreshing(false);
     }
 
     @Override
     public void onError() {
+        loading = false;
+        swipeRefreshLayout.setRefreshing(false);
         Toast.makeText(getActivity(),"网络错误,请检查网络",Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onDataError() {
+        loading = false;
+        swipeRefreshLayout.setRefreshing(false);
+        Toast.makeText(getActivity(),tabTitles[type-1]+"数据错误，请稍后重试",Toast.LENGTH_SHORT).show();
     }
 }

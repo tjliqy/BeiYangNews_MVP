@@ -56,4 +56,9 @@ public class ToNetWork implements ToNetWorkCallBack{
     public void onLoadContentError() {
         newsContentCallBack.onError();
     }
+
+    @Override
+    public void onDataError() {
+        pageFragmentCallBack.onDataError();
+    }
 }

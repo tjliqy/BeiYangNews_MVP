@@ -11,4 +11,5 @@ public interface ToNetWorkCallBack {
     public void getContent(NewsContent newsContent);
     public void onLoadNewsError();
     public void onLoadContentError();
+    public void onDataError();
 }

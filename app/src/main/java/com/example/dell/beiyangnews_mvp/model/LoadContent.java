@@ -22,8 +22,8 @@ public class LoadContent {
         call.enqueue(new Callback<NewsContent>() {
             @Override
             public void onResponse(Call<NewsContent> call, Response<NewsContent> response) {
-                NewsContent newsContent = response.body();
-                callBack.getContent(newsContent);
+                    NewsContent newsContent = response.body();
+                    callBack.getContent(newsContent);
             }
 
             @Override

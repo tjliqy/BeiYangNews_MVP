@@ -1,5 +1,7 @@
 package com.example.dell.beiyangnews_mvp.model;
 
+import android.util.Log;
+
 import com.example.dell.beiyangnews_mvp.presenter.ToNetWorkCallBack;
 
 import retrofit2.Call;
@@ -22,8 +24,14 @@ public class LoadNews {
         call.enqueue(new Callback<News>() {
             @Override
             public void onResponse(Call<News> call, Response<News> response) {
-                News news = response.body();
-                callBack.getNews(news);
+                if(response.isSuccessful()) {
+                    News news = response.body();
+                    callBack.getNews(news);
+                }
+                else {
+                    Log.d("lqy","错误");
+                    callBack.onDataError();
+                }
             }
 
             @Override
