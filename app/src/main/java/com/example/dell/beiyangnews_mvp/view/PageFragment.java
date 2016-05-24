@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.dell.beiyangnews_mvp.R;
@@ -32,13 +33,13 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
     private RecyclerView recyclerView;
     private SwipeRefreshLayout swipeRefreshLayout;
     private MyRecyclerViewAdapter myRecyclerViewAdapter;
+    private TextView errorText;
     private LinearLayoutManager linearLayoutManager;
     private List<News.DataBean> dataBeanList;
     private ToNetWork toNetWork = new ToNetWork();
     private boolean loading = false;
     private int page;
     private int type;
-    private String tabTitles[] = new String[]{"天大要闻","校园公告","社团风采","院系动态","视点观察"};
 
     public static PageFragment newInstance(int page){
         Bundle args = new Bundle();
@@ -60,6 +61,7 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_page, container, false);
 
+        errorText = (TextView)view.findViewById(R.id.error_text) ;
         recyclerView = (RecyclerView)view.findViewById(R.id.recyclerview);
         swipeRefreshLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setColorSchemeColors(Color.RED, Color.BLUE, Color.GREEN);
@@ -107,7 +109,17 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
         });
         return view;
     }
+    private void onErrorBehavior(){
+        loading = false;
+        swipeRefreshLayout.setRefreshing(false);
+        recyclerView.setVisibility(View.INVISIBLE);
+    }
 
+    private void onOkBehavior(){
+        loading = false;
+        swipeRefreshLayout.setRefreshing(false);
+        recyclerView.setVisibility(View.VISIBLE);
+    }
     @Override
     public void onRefresh() {
 
@@ -118,26 +130,23 @@ public class PageFragment extends Fragment implements PageFragmentCallBack{
         this.dataBeanList.addAll(dataBeanList);
         if(dataBeanList.isEmpty()){
             Toast.makeText(getActivity(),"数据错误，请稍后重试",Toast.LENGTH_SHORT).show();
+            onErrorBehavior();
         }
         else {
             myRecyclerViewAdapter.notifyDataSetChanged();
+            onOkBehavior();
         }
-
-        loading = false;
-        swipeRefreshLayout.setRefreshing(false);
     }
 
     @Override
     public void onError() {
-        loading = false;
-        swipeRefreshLayout.setRefreshing(false);
+        onErrorBehavior();
         Toast.makeText(getActivity(),"网络错误,请检查网络",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onDataError() {
-        loading = false;
-        swipeRefreshLayout.setRefreshing(false);
-        Toast.makeText(getActivity(),tabTitles[type-1]+"数据错误，请稍后重试",Toast.LENGTH_SHORT).show();
+        onErrorBehavior();
+        errorText.setVisibility(View.VISIBLE);
     }
 }

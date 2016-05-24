@@ -7,24 +7,25 @@ import java.util.List;
  */
 public class NewsContent {
 
+
     /**
      * error_code : -1
      * message :
-     * data : {"index":51746,"subject":"\u201c诗人之恋\u201d独唱音乐会：触动心灵的诗人音符","content":"<style>img{width: 100% !important;margin:0 auto !important;}<\/style><p style=\"text-indent: 2em;\">4月29日晚7时，北洋合唱团\u201c诗人之恋\u201d\u2014\u2014戚一帆毕业独唱音乐会在卫津路校区大活报告厅举行。新锐钢琴演奏家、北洋合唱团指挥温雨川老师担任本场音乐会的钢琴艺术指导，李婷、梁可馨、王健、高阔同学作为助演嘉宾倾情加盟。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 2em;\">戚一帆，天津大学建筑学院城市规划系2011级本科生，现已保送天津大学建筑学院城乡规划学研究生。在2010年艺术特长生考试中她以声乐第一名的成绩考入天津大学北洋合唱团，入学后担任女高音领唱至今，音色柔美，富于变化。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 0em; text-align: center;\"><span style=\";font-family:宋体;font-size:14px\"><img src=\"http://open.twtstudio.com/imgcache/79c0cb3deb49b27af7717b805c1af76b.jpg\" title=\"1462064406681268.jpg\" alt=\"1开始.jpg\"/><\/span><\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\"><br/><\/span><\/p><p style=\"text-indent: 2em;\">本场音乐会以一首《我爱你中国》为开端。歌词朴质无华，却有着动人心魄的激情。一咏三叹，字句凝练，把海外游子眷恋祖国的无限深情抒发得淋漓尽致。一曲唱罢，乐音突转，戚一帆用一首带着活力与热情的新疆维吾尔族民歌《一杯美酒》感染了整个会场的气氛。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 2em;\">接着，戚一帆带来歌剧《蝴蝶夫人》中著名唱段《un bel di vedremo（晴朗的一天）》，以及《黄河大合唱》乐章之一《黄河怨》。助演嘉宾王健和高阔分别带来了《Non ti scordar di me（不要忘记我）》、《多情的土地》。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 2em;\">在上半场的结束部分，戚一帆深情演唱一首《我的深情为你守候》，献给北洋合唱团全体师生，表达她对北洋合唱团的眷恋与挚爱。\u201c不管什么时候不管什么地方，我的爱为你保留；不管什么时候不管什么地方，我的深情为你守候。\u201d歌声情真意切，温婉感人，饱含深情而又洋溢着时代气息；歌词含蓄内敛而又给人无限遐想，带领观众寻找穿越灵魂的感觉，得到情感上的共鸣。<\/p><p style=\"text-indent: 0em;\"><br/><\/p><p style=\"text-indent: 0em; text-align: center;\"><img src=\"http://open.twtstudio.com/imgcache/e44513020b6f588147e0a494391c535d.jpg\" title=\"1462064463166480.jpg\" alt=\"3感言.jpg\"/><\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 2em;\">下半场开始，戚一帆带来罗伯特·舒曼作曲的声乐套曲 《Dichterliebe Op.48（诗人之恋）》，歌词选自德国诗人海因里希·海涅的诗集《抒情的问候》。《诗人之恋》的音乐具有不同的曲调，有婉转的城市流行歌曲性质的《灿烂鲜艳的五月里》， 有民歌性质的《小玫瑰，小百合》，《那小的花儿们如果知道》等，也有辽阔严肃史诗性的《莱茵河》等等。悠扬的歌声，表达出爱情欣喜的苏醒与痛苦的失去的主题。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 2em;\">随后，女高音梁可馨、女中音李婷、男高音王健、男低音高阔带来《 Quartette op. 92 （四重唱）》。《Libiamo,Libiamo ne\u2019lie ti calici（饮酒歌）》的最后一个乐音落下，本场音乐会进入尾声。戚一帆在她的致词中，向五年中帮助过她的老师和同学致以真挚的感谢。<\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\">&nbsp;<\/span><\/p><p style=\"text-indent: 0em; text-align: center;\"><span style=\";font-family:宋体;font-size:14px\"><img src=\"http://open.twtstudio.com/imgcache/45bc2985b57b6db683fac71a68485fab.jpg\" title=\"1462064433874248.jpg\" alt=\"4最后一首.jpg\"/><\/span><\/p><p style=\"text-indent:28px\"><span style=\";font-family:宋体;font-size:14px\"><br/><\/span><\/p><p style=\"text-indent: 2em;\">最后，戚一帆与王健共同带来一首《道别时刻》，本场音乐会正式落下帷幕。愿今夜，诗人的音符能直达内心最深处，带给你我震撼心灵的感受。<\/p><p><br/><\/p>","newscome":"天外天新闻中心","gonggao":"天外天新闻中心 黄颖","shengao":"天外天新闻中心 毕雪夕","sheying":"天外天新闻中心 汪瑾瑜","visitcount":439,"comments":[]}
+     * data : {"index":51845,"subject":"方寸记流年 镜头映时光：第八届\u201c方寸流年\u201d摄影大赛颁奖典礼暨摄影交流沙龙","content":"<style>img{width: 100% !important;margin:0 auto !important;}<\/style><p style=\"text-indent: 2em;\"><embed id=\"xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd\" type=\"application/thunder_download_plugin\" height=\"0\" width=\"0\"/><\/p><p style=\"text-indent: 2em;\">5月15日下午2时30分，由天津大学天外天新闻中心举办的第八届\u201c方寸流年\u201d摄影大赛颁奖典礼暨摄影交流沙龙在北洋园校区大通学生活动中心A区一层顺利举行。出席本次活动的有校宣传部王涛老师、校宣传部赵习钧老师，天津大学知名摄影师黄维旻、天外天新闻中心指导老师席皓格。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">本届\u201c方寸流年\u201d摄影大赛共分为单反组以及随手拍组两个组别，共有58位参赛者获奖。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">活动伊始，方寸流年的宣传视频吸引住了全场的目光。伴随着优美的背景音乐，主持人将往年的获奖摄影作品向现场观众一一展现。一幅幅构思巧妙、角度独特且具有独立意识与图片语言的佳作令人惊叹。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 0em; text-align: center;\"><img src=\"http://open.twtstudio.com/imgcache/81e2427d4b372545450c6d49c90b2567.jpg\" title=\"1463398106136747.jpg\" alt=\"1.1.jpg\"/><\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">首先揭晓的是随手拍组的优秀奖，共有20位参赛者入围。随后，三等奖、二等奖的的获得者依次揭晓。在三等奖获奖摄影作品中，苏俊榕的作品《雪中母子》、杨昉明的作品《循环楼梯》、王祖琨的作品《几排零食》、李雯雯的作品《一树一男》以及隋昊男的作品《斜倚女郎》都向在场的观众及评委展现了镜头的力量。而来自陕西的女孩张靖晨则凭借她真实而有力量的参赛作品赢得了一等奖。在接受现场主持人采访的时候，张靖晨表示\u201c真实才是最美的\u201d，并希望大家可以随手记录身边的美好瞬间。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">在激动人心的随手拍颁奖之余，现场又进行了摄影知识问答与现场观众抽奖活动。通过充满趣味的活动形式，主办方让现场的观众了解摄影的无穷奥秘与魅力。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 0em; text-align: center;\"><img src=\"http://open.twtstudio.com/imgcache/be2e62a4dfe99773d5a1bf5b03910267.jpg\" title=\"1463398298856220.jpg\" alt=\"5.jpg\"/><\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">在互动环节之后进行的是单反组的颁奖。在本届\u201c方寸流年\u201d单反组获奖作品中有许多震撼人心的瞬间。经过王建泽老师、赵习钧老师和黄维旻先生三位评委的评选，选出优秀奖和一二三等奖共29张。其中优秀奖获奖者共计19人。叶葭的作品《蜂巢之下》、蒋晟龙的作品《飞翔》、李济良的作品《时光机里的记忆》、祖力法特的作品《伊斯坦布尔》、陈天伟的作品《螺旋线中的科图》获得三等奖，而林鹏的作品《思念》、唐朝的作品《星语》、葛梦旗的作品《永远站》则以优秀的视觉表现力以及富于技巧的拍摄手法突出重围，获得二等奖。在一等奖的角逐中，刘智淳凭借《雾中人》一举夺冠。在接到现场主持人经验分享邀请时，刘智淳也显出大将之风，将自己的摄影心得向在场的观众娓娓道来，赢得现场阵阵掌声。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">在随手拍组与单反组获奖者揭晓后，校宣传部王涛老师、校宣传部赵习钧老师，天津大学知名摄影师黄维旻三位嘉宾依次上台，向现场的观众分享自己对摄影的理解。随后，天外天新闻中心指导老师席浩格进行致辞，表达了自己对各位参赛者支持的感谢以及对获奖者的恭喜，并表示，\u201c方寸流年\u201d作为一种文化传统会继续开展下去，希望大家以后多加支持。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 0em; text-align: center;\"><img src=\"http://open.twtstudio.com/imgcache/064ea98f42779ff26f5c603b3d0c09dc.jpg\" title=\"1463398212936576.jpg\" alt=\"4.jpg\"/><\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">在活动接近尾声时，主持人对摄影人的权益现状进行了分析，并发出倡议，希望在场的每一个人都可以树立良好的版权意识，尊重他人的劳动成果。<\/p><p style=\"text-indent: 2em;\"><br/><\/p><p style=\"text-indent: 2em;\">正如主持人所言：\u201c因为我想看午夜皓月凌空、荧惑守心，想看到清晨嫩叶颤颤巍巍地托着露水，想看夏天里姑娘衣裙翩跹像只白蝴蝶，想看雪山上冰舌蜿蜒而下好似一匹银龙。我想啊，用相机，记录下远方的美好。虽然我们没法自己览尽地球上所有的美景，但能从那些优秀的摄影作品中感受世界之壮阔、生命之伟大。\u201d本次活动的举办也是旨在呼吁大家勇敢地记录身边的美好，留住飞腾的时光，并运用摄影技术让生活变得更美好。<\/p>","newscome":"天外天新闻中心","gonggao":"天外天新闻中心 孙耕","shengao":"天外天新闻中心 周冠淳","sheying":"天外天新闻中心 颜凤鸣","visitcount":92,"comments":[{"nid":51845,"ccontent":"张靖晨同学是陕西的不是江西的。。。","cid":987,"cuser":"veranuan","ctime":"05/16"}]}
      */
 
     private int error_code;
     private String message;
     /**
-     * index : 51746
-     * subject : “诗人之恋”独唱音乐会：触动心灵的诗人音符
-     * content : <style>img{width: 100% !important;margin:0 auto !important;}</style><p style="text-indent: 2em;">4月29日晚7时，北洋合唱团“诗人之恋”——戚一帆毕业独唱音乐会在卫津路校区大活报告厅举行。新锐钢琴演奏家、北洋合唱团指挥温雨川老师担任本场音乐会的钢琴艺术指导，李婷、梁可馨、王健、高阔同学作为助演嘉宾倾情加盟。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 2em;">戚一帆，天津大学建筑学院城市规划系2011级本科生，现已保送天津大学建筑学院城乡规划学研究生。在2010年艺术特长生考试中她以声乐第一名的成绩考入天津大学北洋合唱团，入学后担任女高音领唱至今，音色柔美，富于变化。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 0em; text-align: center;"><span style=";font-family:宋体;font-size:14px"><img src="http://open.twtstudio.com/imgcache/79c0cb3deb49b27af7717b805c1af76b.jpg" title="1462064406681268.jpg" alt="1开始.jpg"/></span></p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px"><br/></span></p><p style="text-indent: 2em;">本场音乐会以一首《我爱你中国》为开端。歌词朴质无华，却有着动人心魄的激情。一咏三叹，字句凝练，把海外游子眷恋祖国的无限深情抒发得淋漓尽致。一曲唱罢，乐音突转，戚一帆用一首带着活力与热情的新疆维吾尔族民歌《一杯美酒》感染了整个会场的气氛。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 2em;">接着，戚一帆带来歌剧《蝴蝶夫人》中著名唱段《un bel di vedremo（晴朗的一天）》，以及《黄河大合唱》乐章之一《黄河怨》。助演嘉宾王健和高阔分别带来了《Non ti scordar di me（不要忘记我）》、《多情的土地》。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 2em;">在上半场的结束部分，戚一帆深情演唱一首《我的深情为你守候》，献给北洋合唱团全体师生，表达她对北洋合唱团的眷恋与挚爱。“不管什么时候不管什么地方，我的爱为你保留；不管什么时候不管什么地方，我的深情为你守候。”歌声情真意切，温婉感人，饱含深情而又洋溢着时代气息；歌词含蓄内敛而又给人无限遐想，带领观众寻找穿越灵魂的感觉，得到情感上的共鸣。</p><p style="text-indent: 0em;"><br/></p><p style="text-indent: 0em; text-align: center;"><img src="http://open.twtstudio.com/imgcache/e44513020b6f588147e0a494391c535d.jpg" title="1462064463166480.jpg" alt="3感言.jpg"/></p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 2em;">下半场开始，戚一帆带来罗伯特·舒曼作曲的声乐套曲 《Dichterliebe Op.48（诗人之恋）》，歌词选自德国诗人海因里希·海涅的诗集《抒情的问候》。《诗人之恋》的音乐具有不同的曲调，有婉转的城市流行歌曲性质的《灿烂鲜艳的五月里》， 有民歌性质的《小玫瑰，小百合》，《那小的花儿们如果知道》等，也有辽阔严肃史诗性的《莱茵河》等等。悠扬的歌声，表达出爱情欣喜的苏醒与痛苦的失去的主题。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 2em;">随后，女高音梁可馨、女中音李婷、男高音王健、男低音高阔带来《 Quartette op. 92 （四重唱）》。《Libiamo,Libiamo ne’lie ti calici（饮酒歌）》的最后一个乐音落下，本场音乐会进入尾声。戚一帆在她的致词中，向五年中帮助过她的老师和同学致以真挚的感谢。</p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px">&nbsp;</span></p><p style="text-indent: 0em; text-align: center;"><span style=";font-family:宋体;font-size:14px"><img src="http://open.twtstudio.com/imgcache/45bc2985b57b6db683fac71a68485fab.jpg" title="1462064433874248.jpg" alt="4最后一首.jpg"/></span></p><p style="text-indent:28px"><span style=";font-family:宋体;font-size:14px"><br/></span></p><p style="text-indent: 2em;">最后，戚一帆与王健共同带来一首《道别时刻》，本场音乐会正式落下帷幕。愿今夜，诗人的音符能直达内心最深处，带给你我震撼心灵的感受。</p><p><br/></p>
+     * index : 51845
+     * subject : 方寸记流年 镜头映时光：第八届“方寸流年”摄影大赛颁奖典礼暨摄影交流沙龙
+     * content : <style>img{width: 100% !important;margin:0 auto !important;}</style><p style="text-indent: 2em;"><embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" height="0" width="0"/></p><p style="text-indent: 2em;">5月15日下午2时30分，由天津大学天外天新闻中心举办的第八届“方寸流年”摄影大赛颁奖典礼暨摄影交流沙龙在北洋园校区大通学生活动中心A区一层顺利举行。出席本次活动的有校宣传部王涛老师、校宣传部赵习钧老师，天津大学知名摄影师黄维旻、天外天新闻中心指导老师席皓格。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">本届“方寸流年”摄影大赛共分为单反组以及随手拍组两个组别，共有58位参赛者获奖。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">活动伊始，方寸流年的宣传视频吸引住了全场的目光。伴随着优美的背景音乐，主持人将往年的获奖摄影作品向现场观众一一展现。一幅幅构思巧妙、角度独特且具有独立意识与图片语言的佳作令人惊叹。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 0em; text-align: center;"><img src="http://open.twtstudio.com/imgcache/81e2427d4b372545450c6d49c90b2567.jpg" title="1463398106136747.jpg" alt="1.1.jpg"/></p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">首先揭晓的是随手拍组的优秀奖，共有20位参赛者入围。随后，三等奖、二等奖的的获得者依次揭晓。在三等奖获奖摄影作品中，苏俊榕的作品《雪中母子》、杨昉明的作品《循环楼梯》、王祖琨的作品《几排零食》、李雯雯的作品《一树一男》以及隋昊男的作品《斜倚女郎》都向在场的观众及评委展现了镜头的力量。而来自陕西的女孩张靖晨则凭借她真实而有力量的参赛作品赢得了一等奖。在接受现场主持人采访的时候，张靖晨表示“真实才是最美的”，并希望大家可以随手记录身边的美好瞬间。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">在激动人心的随手拍颁奖之余，现场又进行了摄影知识问答与现场观众抽奖活动。通过充满趣味的活动形式，主办方让现场的观众了解摄影的无穷奥秘与魅力。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 0em; text-align: center;"><img src="http://open.twtstudio.com/imgcache/be2e62a4dfe99773d5a1bf5b03910267.jpg" title="1463398298856220.jpg" alt="5.jpg"/></p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">在互动环节之后进行的是单反组的颁奖。在本届“方寸流年”单反组获奖作品中有许多震撼人心的瞬间。经过王建泽老师、赵习钧老师和黄维旻先生三位评委的评选，选出优秀奖和一二三等奖共29张。其中优秀奖获奖者共计19人。叶葭的作品《蜂巢之下》、蒋晟龙的作品《飞翔》、李济良的作品《时光机里的记忆》、祖力法特的作品《伊斯坦布尔》、陈天伟的作品《螺旋线中的科图》获得三等奖，而林鹏的作品《思念》、唐朝的作品《星语》、葛梦旗的作品《永远站》则以优秀的视觉表现力以及富于技巧的拍摄手法突出重围，获得二等奖。在一等奖的角逐中，刘智淳凭借《雾中人》一举夺冠。在接到现场主持人经验分享邀请时，刘智淳也显出大将之风，将自己的摄影心得向在场的观众娓娓道来，赢得现场阵阵掌声。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">在随手拍组与单反组获奖者揭晓后，校宣传部王涛老师、校宣传部赵习钧老师，天津大学知名摄影师黄维旻三位嘉宾依次上台，向现场的观众分享自己对摄影的理解。随后，天外天新闻中心指导老师席浩格进行致辞，表达了自己对各位参赛者支持的感谢以及对获奖者的恭喜，并表示，“方寸流年”作为一种文化传统会继续开展下去，希望大家以后多加支持。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 0em; text-align: center;"><img src="http://open.twtstudio.com/imgcache/064ea98f42779ff26f5c603b3d0c09dc.jpg" title="1463398212936576.jpg" alt="4.jpg"/></p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">在活动接近尾声时，主持人对摄影人的权益现状进行了分析，并发出倡议，希望在场的每一个人都可以树立良好的版权意识，尊重他人的劳动成果。</p><p style="text-indent: 2em;"><br/></p><p style="text-indent: 2em;">正如主持人所言：“因为我想看午夜皓月凌空、荧惑守心，想看到清晨嫩叶颤颤巍巍地托着露水，想看夏天里姑娘衣裙翩跹像只白蝴蝶，想看雪山上冰舌蜿蜒而下好似一匹银龙。我想啊，用相机，记录下远方的美好。虽然我们没法自己览尽地球上所有的美景，但能从那些优秀的摄影作品中感受世界之壮阔、生命之伟大。”本次活动的举办也是旨在呼吁大家勇敢地记录身边的美好，留住飞腾的时光，并运用摄影技术让生活变得更美好。</p>
      * newscome : 天外天新闻中心
-     * gonggao : 天外天新闻中心 黄颖
-     * shengao : 天外天新闻中心 毕雪夕
-     * sheying : 天外天新闻中心 汪瑾瑜
-     * visitcount : 439
-     * comments : []
+     * gonggao : 天外天新闻中心 孙耕
+     * shengao : 天外天新闻中心 周冠淳
+     * sheying : 天外天新闻中心 颜凤鸣
+     * visitcount : 92
+     * comments : [{"nid":51845,"ccontent":"张靖晨同学是陕西的不是江西的。。。","cid":987,"cuser":"veranuan","ctime":"05/16"}]
      */
 
     private DataBean data;
@@ -62,7 +63,15 @@ public class NewsContent {
         private String shengao;
         private String sheying;
         private int visitcount;
-        private List<?> comments;
+        /**
+         * nid : 51845
+         * ccontent : 张靖晨同学是陕西的不是江西的。。。
+         * cid : 987
+         * cuser : veranuan
+         * ctime : 05/16
+         */
+
+        private List<CommentsBean> comments;
 
         public int getIndex() {
             return index;
@@ -128,12 +137,60 @@ public class NewsContent {
             this.visitcount = visitcount;
         }
 
-        public List<?> getComments() {
+        public List<CommentsBean> getComments() {
             return comments;
         }
 
-        public void setComments(List<?> comments) {
+        public void setComments(List<CommentsBean> comments) {
             this.comments = comments;
+        }
+
+        public static class CommentsBean {
+            private int nid;
+            private String ccontent;
+            private int cid;
+            private String cuser;
+            private String ctime;
+
+            public int getNid() {
+                return nid;
+            }
+
+            public void setNid(int nid) {
+                this.nid = nid;
+            }
+
+            public String getCcontent() {
+                return ccontent;
+            }
+
+            public void setCcontent(String ccontent) {
+                this.ccontent = ccontent;
+            }
+
+            public int getCid() {
+                return cid;
+            }
+
+            public void setCid(int cid) {
+                this.cid = cid;
+            }
+
+            public String getCuser() {
+                return cuser;
+            }
+
+            public void setCuser(String cuser) {
+                this.cuser = cuser;
+            }
+
+            public String getCtime() {
+                return ctime;
+            }
+
+            public void setCtime(String ctime) {
+                this.ctime = ctime;
+            }
         }
     }
 }
